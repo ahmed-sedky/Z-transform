@@ -4,6 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(90deg, #4c91cc ,#a5409a ,#6d109c);
+    /* height: 200vh; */
 }
 h1{
     color:  red;
@@ -18,18 +19,21 @@ h1{
     width: 28%;
     margin: auto;
 }
-.circle,.circle2{
+.circle,.circle2 ,.cir{
     width:20px;
     height:20px;
     display: none;
     border:3px solid black;
     border-radius: 50%;
 }
-.x ,.x2{
+.x ,.x2,.pole{
     font-size: 5vh;
     font-weight: bold;
     display: none;
 }
-.hidden{
-    display: none;
+.btns{
+    margin-bottom: 100px;
 }
+/* .hidden{
+    display: none;
+} */
