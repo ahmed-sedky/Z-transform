@@ -8,6 +8,8 @@ body{
 }
 h1{
     color:  red;
+    margin: auto;
+    margin: 20px 0;
 }
 #uCircle{
     height: 50%;
@@ -32,7 +34,11 @@ h1{
     display: none;
 }
 .btns{
-    margin-bottom: 100px;
+    margin: 20px;
+}
+.submit{
+    margin-left: 470px;
+    margin-bottom: 50px;
 }
 /* .hidden{
     display: none;

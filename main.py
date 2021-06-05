@@ -2,8 +2,8 @@ from flask import Flask, render_template ,request,url_for,redirect,session #impo
 from scipy.interpolate import interp1d
 # m = interp1d([485,1020],[-1,1])
 # n = interp1d([265,800],[-1,1])
-m = interp1d([375,1141],[-1.5,1.5])
-n = interp1d([298,1028],[-1.5,1.5])
+m = interp1d([435,1085],[-1.5,1.5])
+n = interp1d([221,837],[-1.5,1.5])
 
 app = Flask(__name__) 
 app.config["TEMPLATES_AUTO_RELOAD"] = True
