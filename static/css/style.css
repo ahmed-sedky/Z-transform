@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #4c91cc ,#a5409a ,#6d109c);
+}
+h1{
+    color:  red;
+}
+#uCircle{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    border: 2px solid rgb(46, 44, 44);
+}
+.p_z{
+    width: 28%;
+    margin: auto;
+}
+.circle,.circle2{
+    width:20px;
+    height:20px;
+    display: none;
+    border:3px solid black;
+    border-radius: 50%;
+}
+.x ,.x2{
+    font-size: 5vh;
+    font-weight: bold;
+    display: none;
+}
+.hidden{
+    display: none;
+}
